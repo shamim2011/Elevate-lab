@@ -1,0 +1,102 @@
+/* Reset default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body styling */
+body {
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container (form wrapper) */
+form {
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: left;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+/* Labels */
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #444;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    transition: 0.3s ease;
+}
+
+/* Input focus effect */
+input:focus,
+textarea:focus {
+    border-color: #6a5acd;
+    outline: none;
+    box-shadow: 0 0 6px rgba(106, 90, 205, 0.5);
+}
+
+/* Radio buttons */
+input[type="radio"] {
+    margin: 0 8px 0 0;
+    transform: scale(1.1);
+}
+
+/* Radio labels inline */
+label + input[type="radio"] {
+    margin-left: 10px;
+}
+
+/* Textarea */
+textarea {
+    resize: none;
+    height: 80px;
+}
+
+/* Submit button */
+input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #6a5acd, #836fff);
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Hover effect for button */
+input[type="submit"]:hover {
+    background: linear-gradient(135deg, #483d8b, #6a5acd);
+    transform: translateY(-2px);
+}

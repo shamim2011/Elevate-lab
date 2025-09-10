@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h1>Here All Jobs Will Be Displayed!!! </h1>
+	
+	<table border="1">
+	<thead>
+		<tr>
+			<td>Job Title</td>
+			<td>Job Description</td>
+			<td>Salary</td>
+			<td>Job_Type</td>
+			<td>Employee_Id</td>
+			<td>Application Link</td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr th:each="job:${joblist}">
+			<td th:text="${job.title}"></td>
+			<td th:text="${job.description}"></td>
+			<td th:text="${job.salary}"></td>
+			<td th:text="${job.job_type}"></td>
+			<td th:text="${job.emp_id}"></td>
+			<td th:text="${job.link}"></td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>

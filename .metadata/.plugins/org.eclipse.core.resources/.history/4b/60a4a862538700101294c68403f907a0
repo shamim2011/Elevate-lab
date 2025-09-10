@@ -1,0 +1,93 @@
+/* ==========================
+   viewPlaylist.css
+   ========================== */
+
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #fff;
+    min-height: 100vh;
+    padding: 40px;
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+    color: #ffdd57;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+}
+
+/* Table Styling */
+table {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+thead {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+thead tr td {
+    padding: 14px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #ffdd57;
+    border-bottom: 2px solid #ffdd57;
+}
+
+tbody tr {
+    transition: background 0.3s ease;
+}
+
+tbody tr:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+/* Table Cells */
+td {
+    padding: 16px;
+    text-align: center;
+    font-size: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Song List */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 8px 0;
+}
+
+/* Audio Player */
+audio {
+    width: 220px;
+    height: 35px;
+    border-radius: 8px;
+    outline: none;
+}
+
+/* Add nice glowing hover on audio */
+audio:hover {
+    box-shadow: 0 0 12px #ffdd57;
+    transform: scale(1.05);
+    transition: 0.3s;
+}

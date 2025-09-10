@@ -1,0 +1,436 @@
+2025-09-01 12:37:58,107 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-09-01 12:38:54,251 [Worker-1: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example.demo:ABCD:0.0.1-SNAPSHOT @ D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\pom.xml.
+2025-09-01 12:39:05,703 [Worker-1: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /TUNE HUB/src/main/java
+2025-09-01 12:39:05,708 [Worker-1: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /TUNE HUB/src/main/resources
+2025-09-01 12:39:05,711 [Worker-1: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /TUNE HUB/src/main/resources
+2025-09-01 12:39:05,713 [Worker-1: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /TUNE HUB/src/test/java
+2025-09-01 12:39:05,715 [Worker-1: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /TUNE HUB/src/test/resources
+2025-09-01 12:39:06,527 [Worker-1: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 19 sec
+2025-09-01 12:39:06,641 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-09-01 12:39:07,310 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example.demo:ABCD:0.0.1-SNAPSHOT @ D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\pom.xml.
+2025-09-01 12:39:08,518 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /TUNE HUB/src/main/java
+2025-09-01 12:39:08,519 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /TUNE HUB/src/main/resources
+2025-09-01 12:39:08,521 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /TUNE HUB/src/main/resources
+2025-09-01 12:39:08,523 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /TUNE HUB/src/test/java
+2025-09-01 12:39:08,530 [Worker-3: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /TUNE HUB/src/test/resources
+2025-09-01 12:39:09,911 [Worker-3: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2025-09-01 12:39:11,027 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 12:39:11,051 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 21 resources from src\main\resources to target\classes
+2025-09-01 12:39:11,246 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 12:39:39,826 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 12:39:39,829 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 21 resources from src\main\resources to target\classes
+2025-09-01 12:39:39,860 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 19:23:14,895 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-09-01 19:25:26,135 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 19:25:26,151 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 22 resources from src\main\resources to target\classes
+2025-09-01 19:25:26,276 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 19:27:09,294 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 19:27:09,299 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 19:27:09,306 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 19:27:12,693 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 19:27:12,695 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 19:27:12,701 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 19:29:13,743 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 19:29:13,745 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 19:29:13,751 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 19:29:19,067 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 19:29:19,069 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 19:29:19,074 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 19:30:41,996 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 19:30:41,998 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 19:30:42,001 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 19:31:23,972 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 19:31:23,977 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 19:31:23,982 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 19:32:09,986 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 19:32:09,989 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 19:32:09,994 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 19:32:43,861 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 19:32:43,863 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 19:32:43,867 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 19:33:40,763 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 19:33:40,766 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 19:33:40,772 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 19:34:15,587 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 19:34:15,590 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 19:34:15,595 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 19:35:37,651 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 19:35:37,654 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 19:35:37,659 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 19:36:07,831 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 19:36:07,833 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 19:36:07,837 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 19:37:17,481 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 19:37:17,484 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 19:37:17,489 [Worker-17: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 19:37:37,512 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 19:37:37,514 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 19:37:37,518 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 19:38:00,237 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 19:38:00,241 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 19:38:00,247 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 19:38:27,718 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 19:38:27,719 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 19:38:27,723 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 19:39:14,251 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 19:39:14,253 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 19:39:14,257 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 19:41:07,158 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 19:41:07,161 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 19:41:07,167 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 19:43:27,389 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 19:43:27,392 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 19:43:27,397 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 19:43:59,799 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 19:43:59,801 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 19:43:59,806 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 19:45:10,856 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 19:45:10,858 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 19:45:10,862 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 19:45:23,590 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 19:45:23,592 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 19:45:23,596 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 19:45:34,484 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 19:45:34,486 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 19:45:34,490 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 19:46:08,100 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 19:46:08,103 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 19:46:08,109 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 19:47:06,131 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 19:47:06,133 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 19:47:06,137 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 19:47:22,547 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 19:47:22,549 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 19:47:22,554 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 19:48:25,842 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 19:48:25,844 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 19:48:25,849 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 19:54:20,298 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-09-01 19:58:40,641 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-09-01 19:58:54,299 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 19:58:54,359 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 29 resources from src\main\resources to target\classes
+2025-09-01 19:58:54,520 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 19:58:59,343 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 19:58:59,347 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 30 resources from src\main\resources to target\classes
+2025-09-01 19:58:59,400 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 19:59:58,522 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-09-01 20:00:10,864 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:00:10,925 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 29 resources from src\main\resources to target\classes
+2025-09-01 20:00:10,966 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:02:30,247 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:02:30,256 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 30 resources from src\main\resources to target\classes
+2025-09-01 20:02:30,294 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:06:08,903 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:06:08,911 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:06:08,916 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:07:16,307 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:07:16,310 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:07:16,314 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:07:37,403 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:07:37,407 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:07:37,412 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:08:00,115 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:08:00,120 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:08:00,246 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:09:07,315 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:09:07,317 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:09:07,321 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:09:23,772 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:09:23,774 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:09:23,778 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:09:52,271 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:09:52,276 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:09:52,283 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:10:39,835 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:10:39,837 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:10:39,841 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:10:53,251 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:10:53,254 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:10:53,259 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:11:22,021 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:11:22,025 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:11:22,031 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:13:03,807 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:13:03,810 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:13:03,815 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:13:18,563 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:13:18,565 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:13:18,570 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:13:42,853 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:13:42,856 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:13:42,861 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:14:36,345 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:14:36,347 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:14:36,351 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:14:46,363 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:14:46,367 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:14:46,372 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:15:23,645 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:15:23,648 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:15:23,954 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:21:04,423 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:21:04,426 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:21:04,454 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:21:18,907 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:21:18,910 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:21:18,915 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:28:24,636 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:28:24,637 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:28:24,642 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:28:35,889 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:28:35,891 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:28:35,895 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:28:55,551 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:28:55,554 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:28:55,558 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:29:22,169 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:29:22,171 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:29:22,173 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:30:08,114 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:30:08,115 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:30:08,118 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:30:53,014 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:30:53,015 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:30:53,019 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:32:17,837 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:32:17,839 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:32:17,843 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:32:30,724 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:32:30,727 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:32:30,731 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:33:45,828 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:33:45,831 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:33:45,835 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:34:42,678 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:34:42,680 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:34:42,685 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:34:51,624 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:34:51,627 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:34:51,632 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:35:15,918 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:35:15,921 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:35:15,926 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:36:45,713 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:36:45,716 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:36:45,720 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:37:24,765 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:37:24,767 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:37:24,770 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:38:38,506 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:38:38,508 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:38:38,513 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:38:55,927 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:38:55,929 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:38:55,933 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:39:24,195 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:39:24,198 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:39:24,203 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:40:04,376 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:40:04,379 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:40:04,477 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:41:02,705 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:41:02,708 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:41:02,711 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:41:13,354 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:41:13,356 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:41:13,360 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:41:54,697 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:41:54,700 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:41:54,704 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:42:22,928 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:42:22,932 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:42:22,936 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:43:16,486 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:43:16,488 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:43:16,492 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:43:51,537 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:43:51,540 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:43:51,545 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:44:31,946 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:44:31,948 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:44:31,952 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:44:45,524 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:44:45,527 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:44:45,532 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:45:27,714 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:45:27,719 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:45:27,724 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:46:18,420 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:46:18,422 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:46:18,425 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:46:28,615 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:46:28,618 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:46:28,621 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:49:09,096 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:49:09,098 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:49:09,101 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:49:47,054 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:49:47,057 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 41 resources from src\main\resources to target\classes
+2025-09-01 20:49:47,205 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:52:47,750 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:52:47,752 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:52:47,755 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:55:33,047 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:55:33,050 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:55:33,055 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:55:40,193 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 20:55:40,195 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:55:40,198 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 20:56:32,734 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 20:56:32,736 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 42 resources from src\main\resources to target\classes
+2025-09-01 20:56:32,777 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 22:04:09,979 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-09-01 22:05:28,192 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 22:05:28,224 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 42 resources from src\main\resources to target\classes
+2025-09-01 22:05:28,249 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 22:05:33,835 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 22:05:33,845 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 42 resources from src\main\resources to target\classes
+2025-09-01 22:05:33,905 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 22:10:08,182 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 22:10:08,192 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 22:10:08,201 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 22:10:17,631 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 22:10:17,634 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 42 resources from src\main\resources to target\classes
+2025-09-01 22:10:17,683 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 22:17:46,199 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 22:17:46,207 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 22:17:46,214 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 22:18:30,135 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 22:18:30,143 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 22:18:30,152 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 22:18:40,101 [Worker-12: Launching TunHubApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 22:18:40,105 [Worker-12: Launching TunHubApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 22:18:40,111 [Worker-12: Launching TunHubApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 22:22:23,227 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 22:22:23,232 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 22:22:23,240 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-01 22:24:32,607 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-01 22:24:32,612 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-01 22:24:32,618 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-02 08:07:20,721 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-02 08:07:20,736 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 42 resources from src\main\resources to target\classes
+2025-09-02 08:07:21,157 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB\src\test\resources
+2025-09-02 08:07:30,871 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2025-09-02 08:07:42,522 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234 [986])
+2025-09-02 08:07:42,524 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234
+2025-09-02 08:07:42,525 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\aopalliance-1.0.jar
+2025-09-02 08:07:42,525 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\guice-5.1.0.jar
+2025-09-02 08:07:42,525 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\httpclient-4.5.14.jar
+2025-09-02 08:07:42,526 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\httpcore-4.4.16.jar
+2025-09-02 08:07:42,526 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\jansi-2.4.0.jar
+2025-09-02 08:07:42,526 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\jcl-over-slf4j-1.7.36.jar
+2025-09-02 08:07:42,526 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-artifact-3.9.6.jar
+2025-09-02 08:07:42,526 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-builder-support-3.9.6.jar
+2025-09-02 08:07:42,526 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-compat-3.9.6.jar
+2025-09-02 08:07:42,527 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-core-3.9.6.jar
+2025-09-02 08:07:42,527 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-embedder-3.9.6.jar
+2025-09-02 08:07:42,528 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-model-3.9.6.jar
+2025-09-02 08:07:42,528 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-model-builder-3.9.6.jar
+2025-09-02 08:07:42,528 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-plugin-api-3.9.6.jar
+2025-09-02 08:07:42,528 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-repository-metadata-3.9.6.jar
+2025-09-02 08:07:42,528 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-api-1.9.18.jar
+2025-09-02 08:07:42,528 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-connector-basic-1.9.18.jar
+2025-09-02 08:07:42,529 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-impl-1.9.18.jar
+2025-09-02 08:07:42,529 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-named-locks-1.9.18.jar
+2025-09-02 08:07:42,529 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-provider-3.9.6.jar
+2025-09-02 08:07:42,529 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-spi-1.9.18.jar
+2025-09-02 08:07:42,529 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-transport-file-1.9.18.jar
+2025-09-02 08:07:42,529 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-transport-http-1.9.18.jar
+2025-09-02 08:07:42,530 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-transport-wagon-1.9.18.jar
+2025-09-02 08:07:42,530 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-util-1.9.18.jar
+2025-09-02 08:07:42,530 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-settings-3.9.6.jar
+2025-09-02 08:07:42,530 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-settings-builder-3.9.6.jar
+2025-09-02 08:07:42,530 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-shared-utils-3.3.4.jar
+2025-09-02 08:07:42,531 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\org.eclipse.sisu.inject-0.9.0.M2.jar
+2025-09-02 08:07:42,531 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\org.eclipse.sisu.plexus-0.9.0.M2.jar
+2025-09-02 08:07:42,531 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-build-api-0.0.7.jar
+2025-09-02 08:07:42,531 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-cipher-2.0.jar
+2025-09-02 08:07:42,531 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-classworlds-2.7.0.jar
+2025-09-02 08:07:42,531 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-component-annotations-2.1.0.jar
+2025-09-02 08:07:42,532 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-interpolation-1.26.jar
+2025-09-02 08:07:42,532 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-sec-dispatcher-2.0.jar
+2025-09-02 08:07:42,532 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-utils-3.5.1.jar
+2025-09-02 08:07:42,532 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\wagon-file-3.5.3.jar
+2025-09-02 08:07:42,532 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\wagon-http-3.5.3.jar
+2025-09-02 08:07:42,532 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\wagon-http-shared-3.5.3.jar
+2025-09-02 08:07:42,533 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\wagon-provider-api-3.5.3.jar
+2025-09-02 08:07:42,534 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.0.0.jre [25])
+2025-09-02 08:07:42,536 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\com.google.guava_33.0.0.jre.jar
+2025-09-02 08:07:42,536 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.12 [1112])
+2025-09-02 08:07:42,537 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\slf4j.api_2.0.12.jar
+2025-09-02 08:07:42,537 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [41])
+2025-09-02 08:07:42,538 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2025-09-02 08:07:42,538 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [37])
+2025-09-02 08:07:42,538 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\jakarta.annotation-api_1.3.5.jar
+2025-09-02 08:07:42,538 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.6.0 [71])
+2025-09-02 08:07:42,539 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.apache.commons.cli_1.6.0.jar
+2025-09-02 08:07:42,539 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [73])
+2025-09-02 08:07:42,540 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2025-09-02 08:07:42,540 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.lang3_3.14.0 [759])
+2025-09-02 08:07:42,541 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.apache.commons.lang3_3.14.0.jar
+2025-09-02 08:07:42,541 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [27])
+2025-09-02 08:07:42,541 [Worker-29: Launching TUNE HUB] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\com.google.guava.failureaccess_1.0.2.jar
+2025-09-02 08:07:42,561 [Worker-29: Launching TUNE HUB] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB":
+2025-09-02 08:07:42,562 [Worker-29: Launching TUNE HUB] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always clean package
+2025-09-02 08:09:24,912 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2025-09-02 08:09:33,853 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234 [986])
+2025-09-02 08:09:33,854 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234
+2025-09-02 08:09:33,855 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\aopalliance-1.0.jar
+2025-09-02 08:09:33,855 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\guice-5.1.0.jar
+2025-09-02 08:09:33,856 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\httpclient-4.5.14.jar
+2025-09-02 08:09:33,856 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\httpcore-4.4.16.jar
+2025-09-02 08:09:33,856 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\jansi-2.4.0.jar
+2025-09-02 08:09:33,857 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\jcl-over-slf4j-1.7.36.jar
+2025-09-02 08:09:33,857 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-artifact-3.9.6.jar
+2025-09-02 08:09:33,857 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-builder-support-3.9.6.jar
+2025-09-02 08:09:33,858 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-compat-3.9.6.jar
+2025-09-02 08:09:33,858 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-core-3.9.6.jar
+2025-09-02 08:09:33,858 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-embedder-3.9.6.jar
+2025-09-02 08:09:33,859 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-model-3.9.6.jar
+2025-09-02 08:09:33,859 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-model-builder-3.9.6.jar
+2025-09-02 08:09:33,859 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-plugin-api-3.9.6.jar
+2025-09-02 08:09:33,860 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-repository-metadata-3.9.6.jar
+2025-09-02 08:09:33,860 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-api-1.9.18.jar
+2025-09-02 08:09:33,860 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-connector-basic-1.9.18.jar
+2025-09-02 08:09:33,861 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-impl-1.9.18.jar
+2025-09-02 08:09:33,861 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-named-locks-1.9.18.jar
+2025-09-02 08:09:33,861 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-provider-3.9.6.jar
+2025-09-02 08:09:33,861 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-spi-1.9.18.jar
+2025-09-02 08:09:33,862 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-transport-file-1.9.18.jar
+2025-09-02 08:09:33,862 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-transport-http-1.9.18.jar
+2025-09-02 08:09:33,863 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-transport-wagon-1.9.18.jar
+2025-09-02 08:09:33,863 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-resolver-util-1.9.18.jar
+2025-09-02 08:09:33,863 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-settings-3.9.6.jar
+2025-09-02 08:09:33,863 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-settings-builder-3.9.6.jar
+2025-09-02 08:09:33,864 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\maven-shared-utils-3.3.4.jar
+2025-09-02 08:09:33,864 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\org.eclipse.sisu.inject-0.9.0.M2.jar
+2025-09-02 08:09:33,864 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\org.eclipse.sisu.plexus-0.9.0.M2.jar
+2025-09-02 08:09:33,865 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-build-api-0.0.7.jar
+2025-09-02 08:09:33,865 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-cipher-2.0.jar
+2025-09-02 08:09:33,865 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-classworlds-2.7.0.jar
+2025-09-02 08:09:33,866 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-component-annotations-2.1.0.jar
+2025-09-02 08:09:33,866 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-interpolation-1.26.jar
+2025-09-02 08:09:33,866 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-sec-dispatcher-2.0.jar
+2025-09-02 08:09:33,867 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\plexus-utils-3.5.1.jar
+2025-09-02 08:09:33,867 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\wagon-file-3.5.3.jar
+2025-09-02 08:09:33,867 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\wagon-http-3.5.3.jar
+2025-09-02 08:09:33,868 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\wagon-http-shared-3.5.3.jar
+2025-09-02 08:09:33,868 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.600.20231203-1234\jars\wagon-provider-api-3.5.3.jar
+2025-09-02 08:09:33,868 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.0.0.jre [25])
+2025-09-02 08:09:33,869 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\com.google.guava_33.0.0.jre.jar
+2025-09-02 08:09:33,870 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.12 [1112])
+2025-09-02 08:09:33,871 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\slf4j.api_2.0.12.jar
+2025-09-02 08:09:33,871 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [41])
+2025-09-02 08:09:33,872 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2025-09-02 08:09:33,872 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [37])
+2025-09-02 08:09:33,873 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\jakarta.annotation-api_1.3.5.jar
+2025-09-02 08:09:33,873 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.6.0 [71])
+2025-09-02 08:09:33,874 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.apache.commons.cli_1.6.0.jar
+2025-09-02 08:09:33,874 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [73])
+2025-09-02 08:09:33,875 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2025-09-02 08:09:33,875 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.lang3_3.14.0 [759])
+2025-09-02 08:09:33,876 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\org.apache.commons.lang3_3.14.0.jar
+2025-09-02 08:09:33,876 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [27])
+2025-09-02 08:09:33,877 [Worker-30: Launching TUNE HUB (1)] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\asus\OneDrive\Documents\sts-4.21.1.RELEASE\plugins\com.google.guava.failureaccess_1.0.2.jar
+2025-09-02 08:09:33,879 [Worker-30: Launching TUNE HUB (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "D:\All Java Project\TUNE HUB-Upto 15\TUNE HUB":
+2025-09-02 08:09:33,879 [Worker-30: Launching TUNE HUB (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always spring-boot:run

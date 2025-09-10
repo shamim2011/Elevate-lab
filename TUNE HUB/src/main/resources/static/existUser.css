@@ -1,0 +1,51 @@
+/* Apply a modern gradient background */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container for the content */
+.container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px 50px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Heading style */
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #ffcc70;
+    letter-spacing: 1px;
+}
+
+/* Link style */
+a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 25px;
+    background: #ffcc70;
+    color: #333;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect for link */
+a:hover {
+    background: #ffb347;
+    color: #111;
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(255, 204, 112, 0.6);
+}

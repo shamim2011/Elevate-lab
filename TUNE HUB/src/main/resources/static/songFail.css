@@ -1,0 +1,62 @@
+/* style.css */
+
+/* Reset some default browser styling */
+body, h1, a {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Page background with gradient */
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Heading style */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    letter-spacing: 1px;
+    animation: fadeInDown 1s ease-in-out;
+}
+
+/* Stylish link button */
+a {
+    text-decoration: none;
+    background: #fff;
+    color: #764ba2;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Hover effect for button */
+a:hover {
+    background: #764ba2;
+    color: #fff;
+    transform: translateY(-3px);
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.3);
+}
+
+/* Small animation */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

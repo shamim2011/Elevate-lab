@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Playlist</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #f0f0f0;
+            min-height: 100vh;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 2.5rem;
+            padding: 1.5rem;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            background: linear-gradient(45deg, #4cc9f0, #4361ee);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            margin-bottom: 0.5rem;
+            letter-spacing: 1px;
+        }
+
+        .subtitle {
+            color: #a0a0c0;
+            font-size: 1.1rem;
+        }
+
+        .playlist-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0 1rem;
+            margin-top: 1.5rem;
+        }
+
+        .playlist-table thead {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        .playlist-table thead tr {
+            background: linear-gradient(45deg, #4361ee, #3a0ca3);
+            color: white;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .playlist-table th {
+            padding: 1.2rem 1.5rem;
+            text-align: left;
+            font-weight: 600;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .playlist-table tbody tr {
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+            margin-bottom: 1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .playlist-table tbody tr:hover {
+            background: rgba(255, 255, 255, 0.15);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .playlist-table td {
+            padding: 1.5rem;
+            vertical-align: middle;
+        }
+
+        .playlist-id {
+            font-weight: 700;
+            color: #4cc9f0;
+            font-size: 1.2rem;
+        }
+
+        .playlist-name {
+            font-weight: 600;
+            font-size: 1.3rem;
+            color: white;
+        }
+
+        .songs-list {
+            list-style-type: none;
+        }
+
+        .song-item {
+            padding: 1rem;
+            margin-bottom: 1rem;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .song-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .custom-audio-player {
+            flex: 1;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 25px;
+            padding: 0.6rem 1.2rem;
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+        }
+
+        .play-btn {
+            background: #4361ee;
+            color: white;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .play-btn:hover {
+            background: #3a0ca3;
+            transform: scale(1.1);
+        }
+
+        .audio-progress {
+            flex: 1;
+            height: 5px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+        .progress-filled {
+            height: 100%;
+            background: linear-gradient(90deg, #4cc9f0, #4361ee);
+            width: 30%;
+            border-radius: 5px;
+        }
+
+        .time {
+            font-size: 0.85rem;
+            color: #a0a0c0;
+            min-width: 40px;
+        }
+
+        .volume-container {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .volume-slider {
+            width: 80px;
+            height: 5px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .volume-filled {
+            height: 100%;
+            background: #4cc9f0;
+            width: 70%;
+            border-radius: 5px;
+        }
+
+        .song-info {
+            display: flex;
+            flex-direction: column;
+            min-width: 120px;
+        }
+
+        .song-title {
+            font-weight: 600;
+            color: white;
+        }
+
+        .song-artist {
+            font-size: 0.85rem;
+            color: #a0a0c0;
+        }
+
+        .action-buttons {
+            display: flex;
+            gap: 1rem;
+            margin-top: 2rem;
+            justify-content: center;
+        }
+
+        .btn {
+            padding: 0.8rem 1.8rem;
+            border-radius: 30px;
+            border: none;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .btn-primary {
+            background: linear-gradient(45deg, #4361ee, #3a0ca3);
+            color: white;
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.1);
+            color: #f0f0f0;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            color: #a0a0c0;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .playlist-table {
+                display: block;
+                overflow-x: auto;
+            }
+            
+            .song-item {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .custom-audio-player {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-music"></i> My Playlists</h1>
+            <p class="subtitle">Browse and play your favorite music collections</p>
+        </header>
+
+        <table class="playlist-table">
+            <thead>
+                <tr>
+                    <th>Playlist ID</th>
+                    <th>Playlist Name</th>
+                    <th>Songs</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="playlist-id">#001</td>
+                    <td class="playlist-name">Chill Vibes</td>
+                    <td>
+                        <ul class="songs-list">
+                            <li class="song-item">
+                                <div class="song-info">
+                                    <span class="song-title">Sunset Dreams</span>
+                                    <span class="song-artist">Lofi Beats</span>
+                                </div>
+                                <div class="custom-audio-player">
+                                    <div class="play-btn"><i class="fas fa-play"></i></div>
+                                    <div class="audio-progress">
+                                        <div class="progress-filled"></div>
+                                    </div>
+                                    <div class="time">2:45</div>
+                                    <div class="volume-container">
+                                        <i class="fas fa-volume-up"></i>
+                                        <div class="volume-slider">
+                                            <div class="volume-filled"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="song-item">
+                                <div class="song-info">
+                                    <span class="song-title">Ocean Breeze</span>
+                                    <span class="song-artist">Ambient Soul</span>
+                                </div>
+                                <div class="custom-audio-player">
+                                    <div class="play-btn"><i class="fas fa-play"></i></div>
+                                    <div class="audio-progress">
+                                        <div class="progress-filled"></div>
+                                    </div>
+                                    <div class="time">3:20</div>
+                                    <div class="volume-container">
+                                        <i class="fas fa-volume-up"></i>
+                                        <div class="volume-slider">
+                                            <div class="volume-filled"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="playlist-id">#002</td>
+                    <td class="playlist-name">Workout Energy</td>
+                    <td>
+                        <ul class="songs-list">
+                            <li class="song-item">
+                                <div class="song-info">
+                                    <span class="song-title">Pump It Up</span>
+                                    <span class="song-artist">Energy Beats</span>
+                                </div>
+                                <div class="custom-audio-player">
+                                    <div class="play-btn"><i class="fas fa-play"></i></div>
+                                    <div class="audio-progress">
+                                        <div class="progress-filled"></div>
+                                    </div>
+                                    <div class="time">3:15</div>
+                                    <div class="volume-container">
+                                        <i class="fas fa-volume-up"></i>
+                                        <div class="volume-slider">
+                                            <div class="volume-filled"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="playlist-id">#003</td>
+                    <td class="playlist-name">Focus Time</td>
+                    <td>
+                        <ul class="songs-list">
+                            <li class="song-item">
+                                <div class="song-info">
+                                    <span class="song-title">Concentration</span>
+                                    <span class="song-artist">Deep Focus</span>
+                                </div>
+                                <div class="custom-audio-player">
+                                    <div class="play-btn"><i class="fas fa-play"></i></div>
+                                    <div class="audio-progress">
+                                        <div class="progress-filled"></div>
+                                    </div>
+                                    <div class="time">4:10</div>
+                                    <div class="volume-container">
+                                        <i class="fas fa-volume-up"></i>
+                                        <div class="volume-slider">
+                                            <div class="volume-filled"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="song-item">
+                                <div class="song-info">
+                                    <span class="song-title">Productive Day</span>
+                                    <span class="song-artist">Study Beats</span>
+                                </div>
+                                <div class="custom-audio-player">
+                                    <div class="play-btn"><i class="fas fa-play"></i></div>
+                                    <div class="audio-progress">
+                                        <div class="progress-filled"></div>
+                                    </div>
+                                    <div class="time">3:45</div>
+                                    <div class="volume-container">
+                                        <i class="fas fa-volume-up"></i>
+                                        <div class="volume-slider">
+                                            <div class="volume-filled"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="song-item">
+                                <div class="song-info">
+                                    <span class="song-title">Deep Thought</span>
+                                    <span class="song-artist">Brain Waves</span>
+                                </div>
+                                <div class="custom-audio-player">
+                                    <div class="play-btn"><i class="fas fa-play"></i></div>
+                                    <div class="audio-progress">
+                                        <div class="progress-filled"></div>
+                                    </div>
+                                    <div class="time">5:20</div>
+                                    <div class="volume-container">
+                                        <i class="fas fa-volume-up"></i>
+                                        <div class="volume-slider">
+                                            <div class="volume-filled"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="action-buttons">
+            <button class="btn btn-primary"><i class="fas fa-plus"></i> New Playlist</button>
+            <button class="btn btn-secondary"><i class="fas fa-sync-alt"></i> Refresh</button>
+        </div>
+
+        <footer>
+            <p>Music Playlist Manager &copy; 2023 | Designed with <i class="fas fa-heart" style="color: #e91e63;"></i></p>
+        </footer>
+    </div>
+
+    <script>
+        // Simple play/pause functionality for demonstration
+        document.querySelectorAll('.play-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const icon = this.querySelector('i');
+                if (icon.classList.contains('fa-play')) {
+                    icon.classList.remove('fa-play');
+                    icon.classList.add('fa-pause');
+                } else {
+                    icon.classList.remove('fa-pause');
+                    icon.classList.add('fa-play');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

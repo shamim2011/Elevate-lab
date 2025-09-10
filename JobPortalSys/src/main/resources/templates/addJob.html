@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Job</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f7fa;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .form-container {
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 600px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: bold;
+      color: #444;
+    }
+
+    input, textarea, select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 16px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 15px;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+
+    .btn-group {
+      display: flex;
+      gap: 10px;
+    }
+
+    button {
+      flex: 1;
+      padding: 12px;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    button[type="submit"] {
+      background: #007bff;
+      color: white;
+    }
+
+    button[type="reset"] {
+      background: #f1f1f1;
+      color: #333;
+    }
+
+    button:hover {
+      opacity: 0.9;
+    }
+
+    .required {
+      color: red;
+      margin-left: 2px;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Create Job</h2>
+    <form action="/addJob" method="post">
+      <label for="title">Job Title <span class="required">*</span></label>
+      <input type="text" id="title" name="title" placeholder="e.g., Java Developer" required>
+
+      <label for="description">Job Description <span class="required">*</span></label>
+      <textarea id="description" name="description" rows="5" placeholder="Enter job responsibilities, skills, etc." required></textarea>
+
+      <label for="salary">Salary</label>
+      <input type="text" id="salary" name="salary" placeholder="e.g., 50000 or 40k-50k">
+
+      <label for="job_type">Job Type <span class="required">*</span></label>
+      <select id="job_type" name="job_type" required>
+        <option value="" disabled selected>Choose...</option>
+        <option>Full-time</option>
+        <option>Part-time</option>
+        <option>Contract</option>
+        <option>Internship</option>
+        <option>Temporary</option>
+        <option>Remote</option>
+      </select>
+
+      <label for="emp_id">Employer ID <span class="required">*</span></label>
+      <input type="number" id="emp_id" name="emp_id" placeholder="e.g., 101" required min="1">
+      
+      <label for="link">Job Link <span class="required">*</span></label>
+	  <input type="text" id="link" name="link" placeholder="Enter the link" required min="1">
+      
+
+      <div class="btn-group">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+/* Apply a clean modern font and reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #9face6); /* Gradient background */
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style the main heading */
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.3); /* Transparent box */
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Add a smooth hover effect */
+h1:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* Animation effect */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}

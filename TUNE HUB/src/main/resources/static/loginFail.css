@@ -1,0 +1,62 @@
+/* Reset some defaults */
+body, h1, a {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body styling */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+    text-align: center;
+}
+
+/* Error Message */
+h1 {
+    background: rgba(255, 0, 0, 0.1);
+    border: 2px solid #ff4d4d;
+    padding: 20px 30px;
+    border-radius: 12px;
+    font-size: 1.8rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    animation: pulse 1.5s infinite;
+}
+
+/* Login link button */
+a {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    background: #ff4d4d;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Hover effect */
+a:hover {
+    background: #e60000;
+    transform: scale(1.08);
+}
+
+/* Button click effect */
+a:active {
+    transform: scale(0.95);
+}
+
+/* Pulse animation for error message */
+@keyframes pulse {
+    0% { box-shadow: 0 0 5px #ff4d4d; }
+    50% { box-shadow: 0 0 20px #ff4d4d; }
+    100% { box-shadow: 0 0 5px #ff4d4d; }
+}
