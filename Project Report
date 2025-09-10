@@ -18,8 +18,8 @@ Such a project provides excellent learning for managing state, handling media pl
 𝟯. 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀 & 𝗙𝘂𝗻𝗰𝘁𝗶𝗼𝗻𝗮𝗹𝗶𝘁𝘆  
 𝙁𝙚𝙖𝙩𝙪𝙧𝙚	                𝘿𝙚𝙨𝙘𝙧𝙞𝙥𝙩𝙞𝙤𝙣  
 Song Selection  ->	Allows users to browse and pick tracks from a list (up to 15 songs).
-Playback Controls	Includes Play, Pause, Next, Previous—ensuring smooth navigation.
-Track Display	Shows song metadata like title, artist, potentially album art.
-Responsive UI	Designed using CSS to adapt cleanly across devices and screen sizes.
-State Handling	Manages current song and playback state with React hooks or similar logic.
+Playback Controls	 -> Includes Play, Pause, Next, Previous—ensuring smooth navigation.
+Track Display	 -> Shows song metadata like title, artist, potentially album art.
+Responsive UI	 -> Designed using CSS to adapt cleanly across devices and screen sizes.
+State Handling	 -> Manages current song and playback state with React hooks or similar logic.
 
