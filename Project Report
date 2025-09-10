@@ -1,25 +1,28 @@
 𝟭.𝗜𝗻𝘁𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝗼𝗻 & 𝗢𝘃𝗲𝗿𝘃𝗶𝗲𝘄  
 
-Project Title: TuneHubApp  
-Description: A Fun Music Application—a lightweight React-based music player that supports playback  
+       Project Title: TuneHubApp  
+       Description: A Fun Music Application—a lightweight React-based music player that supports playback  
 
 𝗞𝗲𝘆 𝗧𝗲𝗰𝗵𝗻𝗼𝗹𝗼𝗴𝗶𝗲𝘀:  
-𝙁𝙧𝙤𝙣𝙩𝙚𝙣𝙙: Likely built with React (common for such apps)  
-𝙇𝙖𝙣𝙜𝙪𝙖𝙜𝙚𝙨 𝙐𝙨𝙚𝙙: Predominantly CSS, Java, and HTML, according to GitHub's language breakdown  
+     𝙁𝙧𝙤𝙣𝙩𝙚𝙣𝙙: Likely built with React (common for such apps)  
+     𝙇𝙖𝙣𝙜𝙪𝙖𝙜𝙚𝙨 𝙐𝙨𝙚𝙙: Predominantly CSS, Java, and HTML, according to GitHub's language breakdown  
 
 𝟮. 𝗠𝗼𝘁𝗶𝘃𝗮𝘁𝗶𝗼𝗻 & 𝗢𝗯𝗷𝗲𝗰𝘁𝗶𝘃𝗲𝘀  
 𝙏𝙝𝙚 𝙜𝙤𝙖𝙡 𝙤𝙛 𝙩𝙝𝙞𝙨 𝙥𝙧𝙤𝙟𝙚𝙘𝙩 𝙞𝙨 𝙩𝙤 𝙙𝙚𝙡𝙞𝙫𝙚𝙧 𝙖 𝙘𝙤𝙢𝙥𝙖𝙘𝙩, 𝙪𝙨𝙚𝙧-𝙛𝙧𝙞𝙚𝙣𝙙𝙡𝙮 𝙙𝙚𝙨𝙠𝙩𝙤𝙥/𝙬𝙚𝙗 𝙢𝙪𝙨𝙞𝙘 𝙖𝙥𝙥 𝙬𝙞𝙩𝙝:
- -> Smooth and intuitive song selection  
- -> Seamless playback functionality  
- -> Efficient management of a small song library (up to 15 tracks )  
- -> Clean, responsive UI design  
+             -> Smooth and intuitive song selection  
+             -> Seamless playback functionality  
+             -> Efficient management of a small song library (up to 15 tracks )  
+             -> Clean, responsive UI design  
 Such a project provides excellent learning for managing state, handling media playback, and creating an appealing interface in React (or similar frameworks).  
 
 𝟯. 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀 & 𝗙𝘂𝗻𝗰𝘁𝗶𝗼𝗻𝗮𝗹𝗶𝘁𝘆  
-𝙁𝙚𝙖𝙩𝙪𝙧𝙚	                𝘿𝙚𝙨𝙘𝙧𝙞𝙥𝙩𝙞𝙤𝙣  
-Song Selection  ->	Allows users to browse and pick tracks from a list (up to 15 songs).
-Playback Controls	 -> Includes Play, Pause, Next, Previous—ensuring smooth navigation.
-Track Display	 -> Shows song metadata like title, artist, potentially album art.
-Responsive UI	 -> Designed using CSS to adapt cleanly across devices and screen sizes.
-State Handling	 -> Manages current song and playback state with React hooks or similar logic.
+
+            𝙁𝙚𝙖𝙩𝙪𝙧𝙚	                𝘿𝙚𝙨𝙘𝙧𝙞𝙥𝙩𝙞𝙤𝙣  
+            Song Selection  ->	Allows users to browse and pick tracks from a list (up to 15 songs).
+            Playback Controls	 -> Includes Play, Pause, Next, Previous—ensuring smooth navigation.
+            Track Display	 -> Shows song metadata like title, artist, potentially album art.
+            Responsive UI	 -> Designed using CSS to adapt cleanly across devices and screen sizes.
+            State Handling	 -> Manages current song and playback state with React hooks or similar logic.
+
+𝟰. 𝗧𝗲𝗰𝗵𝗻𝗼𝗹𝗼𝗴𝗶𝗲𝘀 & 𝗧𝗼𝗼𝗹𝘀  
 
