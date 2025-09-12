@@ -7,3 +7,4 @@ import com.example.demo.entity.Application;
 public interface ApplicationRepository extends JpaRepository<Application,Integer>{
 
 }
+ 
