@@ -26,8 +26,8 @@ public class UserServiceImpl implements UserService{
 	}
 
 	@Override
-	public boolean validateUser(String username, String password) {
-		User user = urepo.findByEmail(password);
+	public boolean validateUser(String email, String password) {
+		User user = urepo.findByEmail(email);
 		String db_pass = user.getPassword();
 		if(user != null && db_pass.equals(password)) {
 			return true;
