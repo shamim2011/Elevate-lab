@@ -10,8 +10,7 @@ import com.example.demo.entity.User;
 public class HomeController {
 
 	@GetMapping("/map-register")
-    public String mapRegister(Model model) {
-        model.addAttribute("user", new User()); // ✅ required for th:object
+    public String mapRegister() {
         return "register";
     }
 	@GetMapping("/map-login")
