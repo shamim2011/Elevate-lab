@@ -8,7 +8,7 @@ public interface JobService {
 
 	public String addJob(Job job);
 	
-	public boolean jobExist(String title);
+	public boolean jobExist(long empId);
 	
 	List<Job> fetchAllJob();
 	
