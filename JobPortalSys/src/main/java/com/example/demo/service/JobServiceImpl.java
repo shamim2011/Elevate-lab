@@ -21,12 +21,12 @@ public class JobServiceImpl implements JobService{
 	}
 
 	@Override
-	public boolean jobExist(String title) {
-		Job job = jrepo.findByTitle(title);
+	public boolean jobExist(long empId) {
+		Job job = jrepo.findByEmpId(empId);
 		if(job==null) {
 			return false;
 		}
-		return false;
+		return true;
 	}
 
 	@Override
