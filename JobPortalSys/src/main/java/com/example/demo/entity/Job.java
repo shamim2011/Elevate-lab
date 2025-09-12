@@ -2,6 +2,7 @@ package com.example.demo.entity;
 
 import java.util.List;
 
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -19,7 +20,7 @@ public class Job {
 	String description;
 	String salary;
 	String job_type;
-	long emp_id;
+	long empId;
 	String link;
 	
 	 // Many jobs posted by one employer
@@ -35,7 +36,7 @@ public class Job {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Job(int id, String title, String description, String salary, String job_type, long emp_id, String link,
+	public Job(int id, String title, String description, String salary, String job_type, long empId, String link,
 			User employee, List<Application> app) {
 		super();
 		this.id = id;
@@ -43,7 +44,7 @@ public class Job {
 		this.description = description;
 		this.salary = salary;
 		this.job_type = job_type;
-		this.emp_id = emp_id;
+		this.empId = empId;
 		this.link = link;
 		this.employee = employee;
 		this.app = app;
@@ -67,7 +68,7 @@ public class Job {
 
 	public String getDescription() {
 		return description;
-	} 
+	}
 
 	public void setDescription(String description) {
 		this.description = description;
@@ -89,12 +90,12 @@ public class Job {
 		this.job_type = job_type;
 	}
 
-	public long getEmp_id() {
-		return emp_id;
+	public long getEmpId() {
+		return empId;
 	}
 
-	public void setEmp_id(long emp_id) {
-		this.emp_id = emp_id;
+	public void setEmpId(long empId) {
+		this.empId = empId;
 	}
 
 	public String getLink() {
@@ -124,7 +125,9 @@ public class Job {
 	@Override
 	public String toString() {
 		return "Job [id=" + id + ", title=" + title + ", description=" + description + ", salary=" + salary
-				+ ", job_type=" + job_type + ", emp_id=" + emp_id + ", link=" + link + ", employee=" + employee
-				+ ", app=" + app + "]";
+				+ ", job_type=" + job_type + ", empId=" + empId + ", link=" + link + ", employee=" + employee + ", app="
+				+ app + "]";
 	}
+
+	
 }
