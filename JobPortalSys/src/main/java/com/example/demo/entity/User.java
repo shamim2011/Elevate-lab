@@ -5,23 +5,21 @@ import java.util.List;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "users") // avoid conflict with SQL reserved word
 public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
 
-    private String username;
-    private String password;
-    private String email;
-    private String fullName;
-    private String gender;
-    private String role;
+    String username;
+    String password;
+    String email;
+    String fullName;
+    String gender;
+    String role;
 
-    // By default every new user will be premium
-    @Column(nullable = false, columnDefinition = "boolean default true")
-    private boolean isPremium = true;
+    @Column(name = "is_premium")
+    boolean isPremium = true;
 
     // Employer -> Jobs
     @OneToMany
