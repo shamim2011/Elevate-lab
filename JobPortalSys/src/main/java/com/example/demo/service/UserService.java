@@ -7,7 +7,7 @@ public interface UserService {
 	
 	public boolean emailExist(String email);
 	
-	public boolean validateUser(String username,String password);
+	public boolean validateUser(String email,String password);
 	
 	public String getRole(String email);
 	
