@@ -50,16 +50,4 @@ public class UserController {
 		}
 		return "loginFail";
 	}
-	@GetMapping("/exploreJob")
-	public String exploreJobs(HttpSession session,Model model) {
-		String email = (String) session.getAttribute("email");
-		User user = userv.getUser(email);
-		boolean userstatus = user.isPremium();
-		if(userstatus == true && user!=null) {
-			List<Job> jlist = jserv.fetchAllJob();
-			model.addAttribute("joblist",jlist);
-			return "displayAllJob";
-		}
-		return "samplePayment";
-	}
 }
